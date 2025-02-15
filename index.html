@@ -1,0 +1,298 @@
+html <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - MURALI S</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container-fluid">
+      <!-- Logo and Name -->
+      <a class="navbar-brand" href="#home">
+        <img src="https://tplex.com/wp-content/uploads/2024/07/fullstack-development.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+        MURALI S
+      </a>
+      <!-- Navbar Links -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">
+              <i class="fas fa-home"></i>
+              <span class="link-text">Home</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">
+              <i class="fas fa-user"></i>
+              <span class="link-text">About</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">
+              <i class="fas fa-code"></i>
+              <span class="link-text">Projects</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">
+              <i class="fas fa-cogs"></i>
+              <span class="link-text">Skills</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">
+              <i class="fas fa-graduation-cap"></i>
+              <span class="link-text">Education</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">
+              <i class="fas fa-envelope"></i>
+              <span class="link-text">Contact</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link resume-link" href="resume.pdf" download>
+              <i class="fas fa-download"></i>
+              <span class="link-text">Resume</span>
+            </a>
+          </li>
+        </ul>
+        <a href="#dark" id="dark-toggle" class="theme-label"></a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="home-section">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Profile Picture -->
+        <div class="col-md-6 text-center">
+          <div class="profile-pic">
+            <img src="https://thumbs.dreamstime.com/b/bearded-men-black-vector-silhouette-illustration-bearded-men-black-vector-silhouette-illustration-design-339273641.jpg" alt="MURALI S" class="img-fluid">
+          </div>
+        </div>
+        <!-- Content -->
+        <div class="col-md-6">
+          <h1 class="home-title">MURALI S</h1>
+          <h2 class="home-subtitle">Full Stack Developer</h2>
+          <p class="home-description">
+            Expertise in <span class="highlight">Front-End</span> (HTML, CSS, Bootstrap, JavaScript) and
+            <span class="highlight">Back-End</span> (Python, Django, PostgreSQL).
+          </p>
+          <div class="tech-icons">
+            <i class="fab fa-html5"></i>
+            <i class="fab fa-css3-alt"></i>
+            <i class="fab fa-js"></i>
+            <i class="fab fa-bootstrap"></i>
+            <i class="fab fa-python"></i>
+            <i class="fab fa-github"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <p class="about-text">
+            Hi, I'm <span class="highlight">MURALI S</span>, a passionate Full Stack Developer with a strong foundation in both front-end and back-end technologies. I love building interactive and user-friendly web applications that solve real-world problems.
+          </p>
+          <p class="about-text">
+            My journey in web development started with a curiosity for how websites work, and it has grown into a full-fledged career. I specialize in creating responsive designs, optimizing performance, and delivering seamless user experiences.
+          </p>
+          <p class="about-text">
+            When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or enjoying a good cup of coffee while brainstorming my next big idea.
+          </p>
+        </div>
+        <div class="col-md-6">
+          <div class="about-image">
+            <img src="https://thumbs.dreamstime.com/b/bearded-men-black-vector-silhouette-illustration-bearded-men-black-vector-silhouette-illustration-design-339273641.jpg" alt="About Me" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section">
+    <div class="container">
+      <h2 class="section-title">My Projects</h2>
+      <div class="row">
+        <!-- Project 1 -->
+        <div class="col-md-4">
+          <div class="project-card">
+            <img src="project1.jpg" alt="Landing Page 1" class="img-fluid">
+            <h3 class="project-title">Landing Page 1</h3>
+            <p class="project-description">
+              A modern and responsive landing page for a tech startup. Built with HTML, CSS, and Bootstrap.
+            </p>
+            <a href="#" class="btn btn-primary">View Project</a>
+          </div>
+        </div>
+        <!-- Project 2 -->
+        <div class="col-md-4">
+          <div class="project-card">
+            <img src="project2.jpg" alt="Landing Page 2" class="img-fluid">
+            <h3 class="project-title">Landing Page 2</h3>
+            <p class="project-description">
+              A creative landing page for a design agency. Features animations and a clean layout.
+            </p>
+            <a href="#" class="btn btn-primary">View Project</a>
+          </div>
+        </div>
+        <!-- Project 3 -->
+        <div class="col-md-4">
+          <div class="project-card">
+            <img src="project3.jpg" alt="Landing Page 3" class="img-fluid">
+            <h3 class="project-title">Landing Page 3</h3>
+            <p class="project-description">
+              A product landing page with a focus on user engagement and conversion.
+            </p>
+            <a href="#" class="btn btn-primary">View Project</a>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <!-- Project 4 -->
+        <div class="col-md-6">
+          <div class="project-card">
+            <img src="project4.jpg" alt="School Library" class="img-fluid">
+            <h3 class="project-title">School Library</h3>
+            <p class="project-description">
+              An interactive library management system for schools. Built with Python, Django, and PostgreSQL.
+            </p>
+            <a href="#" class="btn btn-primary">View Project</a>
+          </div>
+        </div>
+        <!-- Project 5 -->
+        <div class="col-md-6">
+          <div class="project-card">
+            <img src="project5.jpg" alt="Freelancer Blog" class="img-fluid">
+            <h3 class="project-title">Freelancer Blog</h3>
+            <p class="project-description">
+              A dynamic blog platform for freelancers to share their experiences and insights.
+            </p>
+            <a href="#" class="btn btn-primary">View Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills-section">
+    <div class="container">
+      <h2 class="section-title">Skills</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <h3 class="skill-category">Front-End</h3>
+          <ul class="skill-list">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>Bootstrap</li>
+            <li>React (Basic)</li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <h3 class="skill-category">Back-End</h3>
+          <ul class="skill-list">
+            <li>Python</li>
+            <li>Django</li>
+            <li>PostgreSQL</li>
+            <li>REST APIs</li>
+            <li>Git & GitHub</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="education-section">
+    <div class="container">
+      <h2 class="section-title">Education</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="education-card">
+            <h3 class="education-title">Bachelor of Computer Applications (BCA)</h3>
+            <p class="education-institute">ABC University</p>
+            <p class="education-duration">2018 - 2021</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="education-card">
+            <h3 class="education-title">Master of Computer Applications (MCA)</h3>
+            <p class="education-institute">XYZ University</p>
+            <p class="education-duration">2021 - 2023</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <h2 class="section-title">Contact Me</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <form class="contact-form">
+            <div class="mb-3">
+              <input type="text" class="form-control" placeholder="Your Name" required>
+            </div>
+            <div class="mb-3">
+              <input type="email" class="form-control" placeholder="Your Email" required>
+            </div>
+            <div class="mb-3">
+              <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <div class="contact-info">
+            <p><i class="fas fa-envelope"></i> murali.s@example.com</p>
+            <p><i class="fas fa-phone"></i> +91 98765 43210</p>
+            <p><i class="fas fa-map-marker-alt"></i> Chennai, India</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <p>&copy; 2023 MURALI S. All rights reserved.</p>
+        </div>
+        <div class="col-md-6 text-end">
+          <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS and Popper.js -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
