@@ -630,7 +630,8 @@ section {
   .project-card:hover {
     transform: none;
   }
-}      completely redesign full code add some interesting content and animation for home, about,skill,eduction and contact too. use intervert border animation too. and ihave some animation use it and perfectly execute that where its need.  1. .button-bx a {
+}   
+.button-bx a {
     position: relative;
     display: inline-block;
     padding: 15px 30px;
@@ -706,7 +707,8 @@ section {
     bottom: 100%;
     transition: 1s;
     transition-delay: 0.75s;
-}       2..about-bx div .i-box {
+}      
+ .about-bx div .i-box {
     width: 100%;
     min-height: 70px;
     display: flex;
@@ -751,7 +753,8 @@ section {
 .about-bx div .i-box button:hover::before {
     width: 100%;
     height: 100%;
-}         3..about-bx div .there-d {
+}         
+.about-bx div .there-d {
     padding: 15px;
     width: 150px;
     background-color: var(--colblu);
